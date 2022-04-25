@@ -28,6 +28,30 @@
   color: #61dafb;
 }
 
+.log{
+  background-color: rgba(255, 25, 25, 0.493);
+  border: 3px solid rgb(66, 9, 9);
+  color: rgb(0, 0, 0);
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  box-shadow: 0 6px #999;
+}
+
+.log:hover{
+  cursor: pointer;
+  
+}
+
+.log:active{
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
